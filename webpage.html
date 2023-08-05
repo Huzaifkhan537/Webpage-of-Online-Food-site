@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    *{
+        padding: 0%;
+        margin:0%;
+    }
+    
+    body{
+        background-image: url(spaghetti.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-blend-mode:color-burn ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    } 
+    .container{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    h1{
+        color:mintcream
+        ;
+        
+    }
+    .data ul li{
+        display:inline-block;
+        padding:10px ;
+        text-transform:uppercase;
+    }
+    .reserve{
+        background-color:orangered;
+        padding:3px 10px ;
+        border: 1px;
+        border-radius: 7px;
+    }
+    .data ul li a{
+        color: white;
+        text-decoration: none;
+        
+    }
+    .data ul li a:hover{
+      box-shadow: 0 4px 8px color inset  ,
+         0 4px 8px color inset  ,
+        0 4px 8px color inset,
+        0 4px 8px color inset ;
+        background-color: orangered ;
+        border: 1px;
+        border-radius: 4px;
+    }
+    .welcome{
+
+        color:wheat;
+        top: 45%;
+        left:38%;
+        position: absolute;
+    }
+    h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 15px ;
+        margin-left: 15%;
+        font-size: 25px;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+        }
+        h1{
+            font-size: 37px;
+        }
+        .search{
+          margin-top:35%;
+           margin-left: 46%;
+           position:absolute;
+        }
+        .search input{
+            outline: none;
+            border: 2px;
+            border-radius:5px;
+            padding: 10px 40px;
+        }
+        .submit{
+            top: 70%;
+            left: 47%;
+            position: absolute;
+        }
+        .submit a{
+            background-color:orangered ;
+            text-decoration: none;
+            color: white;
+            padding: 5px 40px;
+            font-size: 15px;
+            border: 1px;
+            border-radius: 7px;
+                                                                                                                                                                                                                                                                                                                                                                                             
+        }
+        .submit a:hover{
+            background-color:green;
+        }
+
+    
+    
+</style>
+</head>
+
+<body>
+    <div class="container"> 
+        <h1>Rich Cuisine</h1>
+        <div class="data">
+         <ul>
+           <li> <a href="#">HOME</a></li>
+           <li><a href="#">ABOUT</a></li>
+           <li> <a href="#">MENU</a></li>
+           <li> <a href="#">GALLERY</a></li>
+           <li><a href="#">TEAM</a></li>
+           <li> <a href="#">CONTACT</a></li>
+           <li>  <a href="#" class="reserve">RESERVATION</a></li>
+        </ul>
+        </div>
+
+        <div class="welcome">
+            <h3 >Welcome To Rich Cuisine</h3>
+            <h1>Rich Healthy And Natural Food</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati at molestiae iure enim magni. Vitae quo dignissimos maiores deserunt placeat aut? Recusandae debitis, sequi est quae nobis quasi provident repellendus!</p>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search Food">
+        </div>
+
+        <div class="submit">
+            <a href="#">Submit</a>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
